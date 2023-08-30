@@ -4,11 +4,11 @@
   "private": true,
   "homepage": "https://niyaj-kumanali.github.io/monsters_rolodex_reactjs/",
   "dependencies": {
-    "gh-pages": "2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
+    "gh-pages": "^6.0.0",
     "react-scripts": "^5.0.1"
   },
   "scripts": {
@@ -16,7 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "yarn build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
